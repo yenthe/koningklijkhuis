@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+body {
+	font-family: Arial,sans-serif;
+}
+
+div#header,
+div#content-header,
+div#footer,
+div#subnav,
+p.aid,
+a.rss,
+div.column.sidebar,
+div#social-share,
+div.paging,
+div#encyclopedia-search,
+span._encltoggle,
+a.more,
+a.button,
+div._nav,
+div.actions
+{
+	display: none;
+}
+
+h1>span {
+	display: block;
+	font-size: 0.8em;
+}
+
+img.shadow {
+	background-color: #fff;
+	padding: 4px;
+	border: 1px solid #ececed;
+
+	-webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+img.aside {
+	float: right;
+	margin: 0 0 10px 20px;
+}
+
+.intro {
+	font-weight: bold;
+}
+
+ul li {
+	margin-bottom: 10px;
+}
+
+.editor-content ul, .editor-content ol {
+	margin: 0 0 1.5em 0;
+	padding: 0 0 0 2em;
+	line-height: 1.5em;
+}
+
+.editor-content ul ul, .editor-content ol ol,
+.editor-content ul ol, .editor-content ol ul {
+	margin-bottom: 0;
+}
+
+.editor-content ul li, .editor-content ol li {
+	margin: 5px 0 5px 0;
+}
+
+table {
+	border-collapse: collapse;
+	margin-bottom: 1.5em;
+}
+
+table td, table th {
+	border: 1px solid #e9eaee;
+	padding: 5px 8px 5px 8px;
+	vertical-align: top;
+}
+
+table caption {
+	position: absolute;
+	left: -9999px;
+}
+
+ol#breadcrumb {
+	margin: 0;
+	padding: 5px 0 5px 25px;
+	list-style: none;
+	overflow: hidden;
+	font-size: 0.917em;
+}
+
+ol#breadcrumb>li {
+	float: left;
+	margin-right: 8px;
+	color: #6e7788;
+	padding-left: 10px;
+	background: url('../images/sprite_bullets.png') no-repeat 0 -14px;
+}
+
+ol#breadcrumb>li:first-child {
+	background: none;
+	padding-left: 0;
+}
+
+ol#breadcrumb>li a {
+	color: #6e7788;
+	text-decoration: none;
+}
+
+div.photo-list ul, div.video-list ul {
+	overflow: hidden;
+	list-style: none;
+}
+
+div.photo-list ul>li, div.video-list ul>li {
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	height: 98px;
+	width: 98px;
+	position: relative;
+}
+
+div.video-list ul>li {
+	width: 165px;
+}
+
+div.slider {
+	height: auto !important;
+}
+
+div.slider ul {
+	overflow: hidden;
+	list-style: none;
+}
+
+div.slider ul li {
+	float: left;
+	margin: 0 20px 20px 0;
+}
